@@ -1,11 +1,12 @@
 server:
-    port: 8081
+    port: 8082
 recursos:
     recurso1: valor del recurso 1
     recurso2: valor del recurso 2
     recurso3: valor del recurso 3
-    recurso4: valor del recurso 4
-    recurso5: valor del recurso 5
+valores:
+    propiedad1: valor de la propiedad 1
+    propiedad2: valor de la propiedad 2
 management:
     endpoints:
         web:
