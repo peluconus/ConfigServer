@@ -2,3 +2,8 @@ server:
     port: 8083
 some:
     value: valor del servidor en produccion
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
